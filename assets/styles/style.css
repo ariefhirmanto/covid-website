@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 100px;
+    background-color: #F6F6F6;
+    text-align: center;
+    color: #707070;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    text-align: right;
+    background-color: #F6F6F6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+}
+ 
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+main {
+    margin-top: -7.5%;
+    padding: 20px;
+    overflow: auto;
+}
+
+.card-data {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    background-color: white;
+}
+
+.card-data .box {
+    width: 30;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box p {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;    
+}
+
+.data-positive p {
+    color: #3B8FFF;
+}
+
+.data-cure p {
+    color: green;
+}
+
+.data-dead p {
+    color: red;
+}
+
+h2, h3 {
+    color: #00a2c6;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-faq {
+    background: #f2f2f2;
+}
+
+.data-province {
+    overflow: scroll;
+}
+
+.data-province table {
+    width: 100%;
+}
+
+.data-province th, .data-province td {
+    text-align: center;
+    padding: 16px;
+}
+
+.data-province th {
+    background-color: #707070;
+    color: white;
+}
+
+.data-province tr:nth-child(even) {
+    background-color: #d2d2d2;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.container-content {
+    display: flex;
+}
+
+.container-content div {
+    flex-basis: 75%;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.content-image {
+    flex-basis: 20%;
+    height: 150px;
+    width: 150px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile image {
+    width: 200px;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: #707070;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    container,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-data .box {
+        flex-direction: column;
+        width: 100%;
+    }
+}
