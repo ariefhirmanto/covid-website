@@ -13,9 +13,9 @@ body {
 .jumbotron {
     font-size: 20px;
     padding: 100px;
-    background-color: #F6F6F6;
+    background-color: #19B5FE;
     text-align: center;
-    color: #707070;
+    color: white;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 
 nav {
     text-align: right;
-    background-color: #F6F6F6;
+    background-color: #19B5FE;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -40,7 +40,7 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-    color: #707070;
+    color: white;
 }
 
 nav a:hover {
@@ -63,7 +63,7 @@ main {
 }
 
 .card-data .box {
-    width: 30;
+    /* width: 30; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -182,8 +182,12 @@ footer {
         padding: 0;
     }
 
+    .card-data {
+        flex-direction: column;
+        height: auto;
+    }
+
     .card-data .box {
         flex-direction: column;
-        width: 100%;
     }
 }
