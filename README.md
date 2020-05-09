@@ -7,3 +7,4 @@ https://github.com/mathdroid/indonesia-covid-19-api
 ![Screenshoot2](https://user-images.githubusercontent.com/41282211/81464525-bac4f200-91ec-11ea-9139-85bf154a12d7.PNG)  
 ![Screenshoot3](https://user-images.githubusercontent.com/41282211/81464528-bc8eb580-91ec-11ea-8b02-4358055f64f5.PNG)  
 ![Screenshoot4](https://user-images.githubusercontent.com/41282211/81464529-bd274c00-91ec-11ea-94fa-53edab27c7e2.PNG)  
+* for US data, the API didn't record recovered case until now
